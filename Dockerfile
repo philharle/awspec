@@ -1,4 +1,17 @@
+#
+# awspec Dockerfile
+#
+# https://github.com/philharle/awspec
+#
+# AUTHOR:   Phil Harle
+#
+# Installs awspec: Allows you to execute RSpec tests against your AWS environments from within a Docker container
+#
+# Gogs:   http://gogs.io
+#
+
 FROM ruby:2.5-alpine
+MAINTAINER Phil Harle
 
 LABEL org.label-schema.schema-version="1.0" \
 org.label-schema.build-date="unknown" \
