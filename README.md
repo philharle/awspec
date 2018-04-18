@@ -1,4 +1,4 @@
-[![Docker Hub: philharle/awspec][dockerhub-shield]][dockerhub-link]
+[![Docker Hub: philharle/awspec][dockerhub-build]][dockerhub-link]
 
 awspec on Docker
 ================
