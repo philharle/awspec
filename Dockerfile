@@ -7,7 +7,7 @@
 #
 # Installs awspec: Allows you to execute RSpec tests against your AWS environments from within a Docker container
 #
-# Gogs:   http://gogs.io
+# awspec: https://github.com/k1LoW/awspec
 #
 
 FROM ruby:2.5-alpine
