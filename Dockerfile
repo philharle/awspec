@@ -22,8 +22,6 @@ org.label-schema.description="ruby 2.5 alpine docker image with awspec binary lo
 ENV TZ=Europe/London
 RUN ln -snf "/usr/share/zoneinfo/$TZ" /etc/localtime && echo "$TZ" > /etc/timezone
 
-RUN "gem install bundle --no-format-exec && \
-gem install awspec --no-format-exec && \
-gem install rake --no-format-exec"
+RUN "gem install bundle --no-format-exec && gem install awspec --no-format-exec && gem install rake --no-format-exec"
 
 WORKDIR /tmp
